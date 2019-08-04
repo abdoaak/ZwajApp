@@ -1,7 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
-@import "../node_modules\bootstrap-v4-rtl\dist\css\bootstrap-rtl.css";
-@import "../node_modules\font-awesome\css\font-awesome.css";
+@import "../node_modules/bootstrap-v4-rtl/dist/css/bootstrap-rtl.css";
+@import "../node_modules/font-awesome/css/font-awesome.css";
+@import "../node_modules/alertifyjs/build/css/alertify.min.css";
+@import "../node_modules/alertifyjs/build/css/themes/bootstrap.min.css";
+@import "../node_modules/bootswatch/dist/sketchy/bootstrap.min.css";
 
+
+@import url("assets/myStyles.css");
 
 @font-face {font-family: "JF Flat"; src: url("./assets/fonts/JF-Flat-Regular.ttf")}
 @font-face {font-family: "ah-naskh-hadith"; src: url("./assets/fonts/18410-ah-naskh-hadith.ttf")}
@@ -11,4 +16,3 @@
 @font-face {font-family: "Droid-Arabic-Kufi-1"; src: url("./assets/fonts/Droid-Arabic-Kufi-1.ttf")}
 @font-face {font-family: "ToyorAljanah"; src: url("./assets/fonts/ToyorAljanah-Regular.otf")}
 
-F:\Zwaj\ZwajApp-SPA\
