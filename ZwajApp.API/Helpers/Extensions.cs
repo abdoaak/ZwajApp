@@ -14,6 +14,11 @@ namespace ZwajApp.API.Helpers
            response.Headers.Add("Access-Control-Allow-Origin","*");
 
        } 
+       public static int CalculateAge(this DateTime dateTime){
+           var age = DateTime.Today.Year-dateTime.Year;
+           if (dateTime.AddYears(age)>DateTime.Today) age--;
+           return age;
+       }
 
     //    public static void AddPagination(this HttpResponse response,int currentPage,int itemsPerPage,int totalItems,int totalPages)
     //    {
